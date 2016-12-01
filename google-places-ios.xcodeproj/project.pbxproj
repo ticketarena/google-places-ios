@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49DDD33E1DF06D7600674634 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDD3261DF06D7600674634 /* GooglePlaces */; };
+		49DDD3511DF06D7600674634 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49DDD33D1DF06D7600674634 /* GooglePlaces.bundle */; };
+		49DDD3581DF06DF200674634 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDD3531DF06DF200674634 /* CoreGraphics.framework */; };
+		49DDD3591DF06DF200674634 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDD3541DF06DF200674634 /* CoreLocation.framework */; };
+		49DDD35A1DF06DF200674634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDD3551DF06DF200674634 /* Foundation.framework */; };
+		49DDD35B1DF06DF200674634 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDD3561DF06DF200674634 /* QuartzCore.framework */; };
+		49DDD35C1DF06DF200674634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDD3571DF06DF200674634 /* UIKit.framework */; };
+		49DDD3B71DF0749100674634 /* GMSAddressComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3A51DF0749100674634 /* GMSAddressComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3B81DF0749100674634 /* GMSAutocompleteFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3A61DF0749100674634 /* GMSAutocompleteFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3B91DF0749100674634 /* GMSAutocompleteFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3A71DF0749100674634 /* GMSAutocompleteFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3BA1DF0749100674634 /* GMSAutocompleteMatchFragment.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3A81DF0749100674634 /* GMSAutocompleteMatchFragment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3BB1DF0749100674634 /* GMSAutocompletePrediction.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3A91DF0749100674634 /* GMSAutocompletePrediction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3BC1DF0749100674634 /* GMSAutocompleteResultsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3AA1DF0749100674634 /* GMSAutocompleteResultsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3BD1DF0749100674634 /* GMSAutocompleteTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3AB1DF0749100674634 /* GMSAutocompleteTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3BE1DF0749100674634 /* GMSAutocompleteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3AC1DF0749100674634 /* GMSAutocompleteViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3BF1DF0749100674634 /* GMSPlace.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3AD1DF0749100674634 /* GMSPlace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C01DF0749100674634 /* GMSPlaceLikelihood.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3AE1DF0749100674634 /* GMSPlaceLikelihood.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C11DF0749100674634 /* GMSPlaceLikelihoodList.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3AF1DF0749100674634 /* GMSPlaceLikelihoodList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C21DF0749100674634 /* GMSPlacePhotoMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3B01DF0749100674634 /* GMSPlacePhotoMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C31DF0749100674634 /* GMSPlacePhotoMetadataList.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3B11DF0749100674634 /* GMSPlacePhotoMetadataList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C41DF0749100674634 /* GMSPlacesClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3B21DF0749100674634 /* GMSPlacesClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C51DF0749100674634 /* GMSPlacesErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3B31DF0749100674634 /* GMSPlacesErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C61DF0749100674634 /* GMSPlaceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3B41DF0749100674634 /* GMSPlaceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C71DF0749100674634 /* GMSUserAddedPlace.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3B51DF0749100674634 /* GMSUserAddedPlace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3C81DF0749100674634 /* GooglePlaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DDD3B61DF0749100674634 /* GooglePlaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DDD3D21DF0825E00674634 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDD3D11DF0825E00674634 /* GoogleMapsBase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49DDD31D1DF06D4F00674634 /* GooglePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DDD3211DF06D4F00674634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DDD3261DF06D7600674634 /* GooglePlaces */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GooglePlaces; sourceTree = "<group>"; };
+		49DDD33D1DF06D7600674634 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
+		49DDD3531DF06DF200674634 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		49DDD3541DF06DF200674634 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		49DDD3551DF06DF200674634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49DDD3561DF06DF200674634 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		49DDD3571DF06DF200674634 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		49DDD3A51DF0749100674634 /* GMSAddressComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAddressComponent.h; sourceTree = "<group>"; };
+		49DDD3A61DF0749100674634 /* GMSAutocompleteFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteFetcher.h; sourceTree = "<group>"; };
+		49DDD3A71DF0749100674634 /* GMSAutocompleteFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteFilter.h; sourceTree = "<group>"; };
+		49DDD3A81DF0749100674634 /* GMSAutocompleteMatchFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteMatchFragment.h; sourceTree = "<group>"; };
+		49DDD3A91DF0749100674634 /* GMSAutocompletePrediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompletePrediction.h; sourceTree = "<group>"; };
+		49DDD3AA1DF0749100674634 /* GMSAutocompleteResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteResultsViewController.h; sourceTree = "<group>"; };
+		49DDD3AB1DF0749100674634 /* GMSAutocompleteTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteTableDataSource.h; sourceTree = "<group>"; };
+		49DDD3AC1DF0749100674634 /* GMSAutocompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteViewController.h; sourceTree = "<group>"; };
+		49DDD3AD1DF0749100674634 /* GMSPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlace.h; sourceTree = "<group>"; };
+		49DDD3AE1DF0749100674634 /* GMSPlaceLikelihood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceLikelihood.h; sourceTree = "<group>"; };
+		49DDD3AF1DF0749100674634 /* GMSPlaceLikelihoodList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceLikelihoodList.h; sourceTree = "<group>"; };
+		49DDD3B01DF0749100674634 /* GMSPlacePhotoMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePhotoMetadata.h; sourceTree = "<group>"; };
+		49DDD3B11DF0749100674634 /* GMSPlacePhotoMetadataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacePhotoMetadataList.h; sourceTree = "<group>"; };
+		49DDD3B21DF0749100674634 /* GMSPlacesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacesClient.h; sourceTree = "<group>"; };
+		49DDD3B31DF0749100674634 /* GMSPlacesErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlacesErrors.h; sourceTree = "<group>"; };
+		49DDD3B41DF0749100674634 /* GMSPlaceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceTypes.h; sourceTree = "<group>"; };
+		49DDD3B51DF0749100674634 /* GMSUserAddedPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSUserAddedPlace.h; sourceTree = "<group>"; };
+		49DDD3B61DF0749100674634 /* GooglePlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlaces.h; sourceTree = "<group>"; };
+		49DDD3D11DF0825E00674634 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49DDD3191DF06D4F00674634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DDD3581DF06DF200674634 /* CoreGraphics.framework in Frameworks */,
+				49DDD3591DF06DF200674634 /* CoreLocation.framework in Frameworks */,
+				49DDD3D21DF0825E00674634 /* GoogleMapsBase.framework in Frameworks */,
+				49DDD35A1DF06DF200674634 /* Foundation.framework in Frameworks */,
+				49DDD35B1DF06DF200674634 /* QuartzCore.framework in Frameworks */,
+				49DDD35C1DF06DF200674634 /* UIKit.framework in Frameworks */,
+				49DDD33E1DF06D7600674634 /* GooglePlaces in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49DDD3111DF06D2800674634 = {
+			isa = PBXGroup;
+			children = (
+				49DDD31F1DF06D4F00674634 /* GooglePlaces */,
+				49DDD31E1DF06D4F00674634 /* Products */,
+				49DDD3521DF06DF100674634 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49DDD31E1DF06D4F00674634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49DDD31D1DF06D4F00674634 /* GooglePlaces.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DDD31F1DF06D4F00674634 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				49DDD3261DF06D7600674634 /* GooglePlaces */,
+				49DDD3B61DF0749100674634 /* GooglePlaces.h */,
+				49DDD3A51DF0749100674634 /* GMSAddressComponent.h */,
+				49DDD3A61DF0749100674634 /* GMSAutocompleteFetcher.h */,
+				49DDD3A71DF0749100674634 /* GMSAutocompleteFilter.h */,
+				49DDD3A81DF0749100674634 /* GMSAutocompleteMatchFragment.h */,
+				49DDD3A91DF0749100674634 /* GMSAutocompletePrediction.h */,
+				49DDD3AA1DF0749100674634 /* GMSAutocompleteResultsViewController.h */,
+				49DDD3AB1DF0749100674634 /* GMSAutocompleteTableDataSource.h */,
+				49DDD3AC1DF0749100674634 /* GMSAutocompleteViewController.h */,
+				49DDD3AD1DF0749100674634 /* GMSPlace.h */,
+				49DDD3AE1DF0749100674634 /* GMSPlaceLikelihood.h */,
+				49DDD3AF1DF0749100674634 /* GMSPlaceLikelihoodList.h */,
+				49DDD3B01DF0749100674634 /* GMSPlacePhotoMetadata.h */,
+				49DDD3B11DF0749100674634 /* GMSPlacePhotoMetadataList.h */,
+				49DDD3B21DF0749100674634 /* GMSPlacesClient.h */,
+				49DDD3B31DF0749100674634 /* GMSPlacesErrors.h */,
+				49DDD3B41DF0749100674634 /* GMSPlaceTypes.h */,
+				49DDD3B51DF0749100674634 /* GMSUserAddedPlace.h */,
+				49DDD33C1DF06D7600674634 /* Resources */,
+				49DDD3211DF06D4F00674634 /* Info.plist */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		49DDD33C1DF06D7600674634 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49DDD33D1DF06D7600674634 /* GooglePlaces.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49DDD3521DF06DF100674634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49DDD3D11DF0825E00674634 /* GoogleMapsBase.framework */,
+				49DDD3531DF06DF200674634 /* CoreGraphics.framework */,
+				49DDD3541DF06DF200674634 /* CoreLocation.framework */,
+				49DDD3551DF06DF200674634 /* Foundation.framework */,
+				49DDD3561DF06DF200674634 /* QuartzCore.framework */,
+				49DDD3571DF06DF200674634 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49DDD31A1DF06D4F00674634 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DDD3C61DF0749100674634 /* GMSPlaceTypes.h in Headers */,
+				49DDD3C41DF0749100674634 /* GMSPlacesClient.h in Headers */,
+				49DDD3BC1DF0749100674634 /* GMSAutocompleteResultsViewController.h in Headers */,
+				49DDD3B81DF0749100674634 /* GMSAutocompleteFetcher.h in Headers */,
+				49DDD3BD1DF0749100674634 /* GMSAutocompleteTableDataSource.h in Headers */,
+				49DDD3C21DF0749100674634 /* GMSPlacePhotoMetadata.h in Headers */,
+				49DDD3C51DF0749100674634 /* GMSPlacesErrors.h in Headers */,
+				49DDD3BF1DF0749100674634 /* GMSPlace.h in Headers */,
+				49DDD3B91DF0749100674634 /* GMSAutocompleteFilter.h in Headers */,
+				49DDD3BE1DF0749100674634 /* GMSAutocompleteViewController.h in Headers */,
+				49DDD3C81DF0749100674634 /* GooglePlaces.h in Headers */,
+				49DDD3C01DF0749100674634 /* GMSPlaceLikelihood.h in Headers */,
+				49DDD3C31DF0749100674634 /* GMSPlacePhotoMetadataList.h in Headers */,
+				49DDD3B71DF0749100674634 /* GMSAddressComponent.h in Headers */,
+				49DDD3BA1DF0749100674634 /* GMSAutocompleteMatchFragment.h in Headers */,
+				49DDD3BB1DF0749100674634 /* GMSAutocompletePrediction.h in Headers */,
+				49DDD3C71DF0749100674634 /* GMSUserAddedPlace.h in Headers */,
+				49DDD3C11DF0749100674634 /* GMSPlaceLikelihoodList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49DDD31C1DF06D4F00674634 /* GooglePlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DDD3231DF06D4F00674634 /* Build configuration list for PBXNativeTarget "GooglePlaces" */;
+			buildPhases = (
+				49DDD3181DF06D4F00674634 /* Sources */,
+				49DDD3191DF06D4F00674634 /* Frameworks */,
+				49DDD31A1DF06D4F00674634 /* Headers */,
+				49DDD31B1DF06D4F00674634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlaces;
+			productName = GooglePlaces;
+			productReference = 49DDD31D1DF06D4F00674634 /* GooglePlaces.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49DDD3121DF06D2800674634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					49DDD31C1DF06D4F00674634 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49DDD3151DF06D2800674634 /* Build configuration list for PBXProject "google-places-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49DDD3111DF06D2800674634;
+			productRefGroup = 49DDD31E1DF06D4F00674634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49DDD31C1DF06D4F00674634 /* GooglePlaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49DDD31B1DF06D4F00674634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DDD3511DF06D7600674634 /* GooglePlaces.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49DDD3181DF06D4F00674634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49DDD3161DF06D2800674634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		49DDD3171DF06D2800674634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		49DDD3241DF06D4F00674634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GooglePlaces/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = GooglePlaces/Modules/module.modulemap;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.ticketarena.GooglePlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49DDD3251DF06D4F00674634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GooglePlaces/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = GooglePlaces/Modules/module.modulemap;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.ticketarena.GooglePlaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49DDD3151DF06D2800674634 /* Build configuration list for PBXProject "google-places-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DDD3161DF06D2800674634 /* Debug */,
+				49DDD3171DF06D2800674634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DDD3231DF06D4F00674634 /* Build configuration list for PBXNativeTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DDD3241DF06D4F00674634 /* Debug */,
+				49DDD3251DF06D4F00674634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49DDD3121DF06D2800674634 /* Project object */;
+}
